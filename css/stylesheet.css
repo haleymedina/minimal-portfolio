@@ -1,4 +1,28 @@
 body {
-    background-image: url("swirls.png");
+    background-image: url("Untitled_Artwork\ 7.png");
     background-size: cover;
 }
+
+.image-container {
+    background-image: url("Untitled_Artwork\ 7.png");
+    background-size: cover;
+    position: relative;
+    height: 150px;
+}
+
+.text {
+    background-color: white;
+    color: black;
+    font-size: 5vw; 
+    font-weight: bold;
+    margin: 0px;
+    padding: 57px 0px 57px 0px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+
